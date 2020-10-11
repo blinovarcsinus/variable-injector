@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax", .revision("swift-5.3-RELEASE")),
-        .package(name: "swift-argument-parser", url: "https://github.com/apple/swift-argument-parser.git", .exact("0.3.1"))
+        .package(name: "swift-argument-parser", url: "https://github.com/apple/swift-argument-parser.git", .revision("swift-5.3-branch"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
