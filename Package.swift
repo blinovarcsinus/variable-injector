@@ -12,7 +12,7 @@ let package = Package(
             targets: ["variable-injector"]),        
     ],
     dependencies: [
-        .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .exact("0.50300.0")),
+        .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax", .revision("swift-5.3-RELEASE")),
         .package(name: "swift-argument-parser", url: "https://github.com/apple/swift-argument-parser.git", .exact("0.3.1"))
     ],
     targets: [
